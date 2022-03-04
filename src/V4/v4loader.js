@@ -14,7 +14,7 @@ const N = "TXEduHelper";
 const LINE = "-------------------------";
 
 //***云脚本URL***
-var loadSrc = 'https://ret2libc-pwned.github.io/txedu-helper/src/V4/TXEduHelperV4.js';                      //要加载的js路径
+var loadSrc = 'https://github.com/WhoisOptimis/txedu-helper/blob/main/src/V4/TXEduHelperV4.js';                      //要加载的js路径
 
 var config = {
     name: "Default",
