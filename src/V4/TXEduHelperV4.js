@@ -63,6 +63,8 @@ function sendMsg(str) {
     LOG("在讨论区发送了一条信息: " + str);
 }
 
+config.autoFlowerEnable = false;
+
 function sendFlower() {
     if(config.autoFlowerEnabled) {
         flowerBtn.click();
@@ -123,7 +125,7 @@ let helper = setInterval(function() {
     }
 
     //送花功能
-    sendFlower();
+    // sendFlower();
     //***在这里添加你需要循环执行的功能***
 
 }, config.scanInternal);
